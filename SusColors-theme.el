@@ -31,7 +31,7 @@
    ;; Highlight quoted mode-line
    `(highlight-quoted-symbol ((t (:foreground ,pink))))
    ;; hl-line and hlinum-activate
-   `(linum-highlight-face ((t (:foreground ,green :background ,grey2))))
+   `(linum-highlight-face ((t (:foreground ,orange :background ,grey2))))
    `(hl-line ((t (:background ,grey2))))
    ;; magit
    ;;`(magit-diff-added-highlight ((t (:background ,"#35B82C" :foreground ,fg))))
