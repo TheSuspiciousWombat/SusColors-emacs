@@ -27,6 +27,7 @@
    `(font-lock-comment-face ((t (:foreground ,grey))))
    `(font-lock-function-name-face ((t (:foreground ,blue))))
    `(font-lock-type-face ((t (:foreground ,pink))))
+   `(font-lock-constant-face ((t (:foreground ,pink))))
    `(button ((t (:foreground ,blue2 :weight bold :underline t))))
    ;; Highlight quoted mode-line
    `(highlight-quoted-symbol ((t (:foreground ,pink))))
