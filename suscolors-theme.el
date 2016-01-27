@@ -66,3 +66,4 @@
 
 
 (provide-theme 'suscolors)
+;;; suscolors-theme.el ends here
