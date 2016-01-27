@@ -1,3 +1,13 @@
+;;; SusColors-theme.el --- Colorful theme for emacs, Inspired by Gruvbox.
+;;; Copyright (c) 2016 Tomas Vojtisek
+;;; Author: Tomas Vojtisek <suspiciouswombat@gmail.com>
+;;; Maintainer: Vojtisek Tomas
+;;; URL: https://github.com/TheSuspiciousWombat/SusColors-emacs
+
+;;; Commentary:
+;;;  Colorful theme for Emacs, Inspired by Gruvbox.
+
+;;; Code:
 (deftheme SusColors
   "Created 2016-01-25.")
 (let (
