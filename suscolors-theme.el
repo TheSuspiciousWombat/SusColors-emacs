@@ -39,6 +39,7 @@
    `(font-lock-type-face ((t (:foreground ,pink))))
    `(font-lock-constant-face ((t (:foreground ,pink))))
    `(button ((t (:foreground ,blue2 :weight bold :underline t))))
+   `(mode-line ((t (:background ,grey3 :foreground ,fg))))
    ;; Highlight quoted mode-line
    `(highlight-quoted-symbol ((t (:foreground ,pink))))
    ;; hl-line and hlinum-activate
