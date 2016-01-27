@@ -1,4 +1,4 @@
-;;; SusColors-theme.el --- Colorful theme for emacs, Inspired by Gruvbox.
+;;; suscolors-theme.el --- Colorful theme for Emacs, inspired by Gruvbox.
 ;;; Copyright (c) 2016 Tomas Vojtisek
 ;;; Author: Tomas Vojtisek <suspiciouswombat@gmail.com>
 ;;; Maintainer: Vojtisek Tomas
@@ -8,7 +8,7 @@
 ;;;  Colorful theme for Emacs, Inspired by Gruvbox.
 
 ;;; Code:
-(deftheme SusColors
+(deftheme suscolors
   "Created 2016-01-25.")
 (let (
       (bg "#262626")
@@ -26,7 +26,7 @@
       (red2 "#EF3935")
       )
   (custom-theme-set-faces
-   'SusColors
+   'suscolors
    `(default ((t (:foreground ,fg :background ,bg))))
    `(font-lock-string-face ((t (:foreground ,green))))
    `(font-lock-builtin-face ((t (:foreground ,blue ;; :weight bold
@@ -65,4 +65,4 @@
 	     (file-name-as-directory (file-name-directory load-file-name))))
 
 
-(provide-theme 'SusColors)
+(provide-theme 'suscolors)
