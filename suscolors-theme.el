@@ -73,6 +73,15 @@
    `(rainbow-delimiters-depth-10-face ((t (:foreground ,orange))))
    ;; ERC
    `(erc-timestamp-face ((t (:foreground ,red))))
+   ;; Company-mode
+   `(company-tooltip ((t (:foreground ,fg :background ,grey2))))
+   `(company-tooltip-selection ((t (:foreground ,fg :background ,grey3))))
+   `(company-scrollbar-fg ((t (:background ,grey2))))
+   `(company-scrollbar-bg ((t (:background ,grey3))))
+   `(company-tooltip-common ((t (:foreground ,orange))))
+   `(company-preview ((t (:background ,grey3))))
+   `(company-preview-common ((t (:background ,grey3 :foreground ,red))))
+   `(company-mouse ((t (:background ,grey2))))
    ))
 
 ;;;###autoload
