@@ -70,6 +70,8 @@
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,red))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,blue))))
    `(rainbow-delimiters-depth-10-face ((t (:foreground ,orange))))
+   ;; ERC
+   `(erc-timestamp-face ((t (:foreground ,red))))
    ))
 
 ;;;###autoload
