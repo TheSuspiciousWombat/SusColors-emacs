@@ -83,6 +83,8 @@
    `(company-preview ((t (:background ,grey3))))
    `(company-preview-common ((t (:background ,grey3 :foreground ,red))))
    `(company-mouse ((t (:background ,grey2))))
+   ;; Flycheck
+   `(flycheck-warning ((t (:foreground ,red2 :weight bold :underline t))))
    ))
 
 ;;;###autoload
