@@ -85,6 +85,8 @@
    `(company-mouse ((t (:background ,grey2))))
    ;; Flycheck
    `(flycheck-warning ((t (:foreground ,red2 :weight bold :underline t))))
+   ;; js2-mode
+   `(js2-function-param ((t (:foreground ,orange))))
    ))
 
 ;;;###autoload
