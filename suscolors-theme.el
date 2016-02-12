@@ -87,6 +87,12 @@
    `(flycheck-warning ((t (:foreground ,red2 :weight bold :underline t))))
    ;; js2-mode
    `(js2-function-param ((t (:foreground ,orange))))
+   ;; erc
+   `(erc-prompt-face ((t (:foreground ,red, :weight bold))))
+   `(erc-nick-default-face ((t (:foreground ,blue))))
+   `(erc-notice-face ((t (:foreground ,pink))))
+   `(erc-button ((t (:foreground ,blue2))))
+   `(erc-current-nick-face ((t (:foreground ,red))))
    ))
 
 ;;;###autoload
