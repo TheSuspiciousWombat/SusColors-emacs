@@ -72,8 +72,6 @@
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,red))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,blue))))
    `(rainbow-delimiters-depth-10-face ((t (:foreground ,orange))))
-   ;; ERC
-   `(erc-timestamp-face ((t (:foreground ,red))))
    ;; Company-mode
    `(company-tooltip ((t (:foreground ,fg :background ,grey2))))
    `(company-tooltip-selection ((t (:foreground ,fg :background ,grey3))))
@@ -88,6 +86,7 @@
    ;; js2-mode
    `(js2-function-param ((t (:foreground ,orange))))
    ;; erc
+   `(erc-timestamp-face ((t (:foreground ,red))))
    `(erc-prompt-face ((t (:foreground ,red, :weight bold))))
    `(erc-nick-default-face ((t (:foreground ,blue))))
    `(erc-notice-face ((t (:foreground ,pink))))
