@@ -30,8 +30,7 @@
    'suscolors
    `(default ((t (:foreground ,fg :background ,bg))))
    `(font-lock-string-face ((t (:foreground ,green))))
-   `(font-lock-builtin-face ((t (:foreground ,blue ;; :weight bold
-					     ))))
+   `(font-lock-builtin-face ((t (:foreground ,blue))))
    `(region ((t (:background ,grey3))))
    `(font-lock-variable-name-face ((t (:foreground ,orange))))
    `(font-lock-keyword-face ((t (:foreground ,red))))
@@ -44,6 +43,7 @@
    `(menu ((t (:foreground ,fg :background ,grey3))))
    `(font-lock-warning-face ((t (:foreground ,red2))))
    `(compilation-warning ((t (:foreground ,red2))))
+   `(highlight ((t (:background ,grey2 :foreground ,blue))))
    ;; Highlight quoted mode-line
    `(highlight-quoted-symbol ((t (:foreground ,pink))))
    ;; hl-line and hlinum-activate
