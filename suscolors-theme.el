@@ -46,10 +46,11 @@
    `(compilation-warning ((t (:foreground ,red2))))
    `(highlight ((t (:background ,grey2 :foreground ,blue))))
    `(region ((t (:background ,grey2))))
+   `(linum ((t (:foreground ,grey3 :weight bold))))
    ;; Highlight quoted mode-line
    `(highlight-quoted-symbol ((t (:foreground ,pink))))
    ;; hl-line and hlinum-activate
-   `(linum-highlight-face ((t (:foreground ,orange :background ,grey2))))
+   `(linum-highlight-face ((t (:foreground ,grey :background ,grey2 :weight bold))))
    `(hl-line ((t (:background ,grey2))))
    ;; magit
    ;;`(magit-diff-added-highlight ((t (:background ,"#35B82C" :foreground ,fg))))
