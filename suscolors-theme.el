@@ -62,14 +62,14 @@
    `(org-level-4 ((t (:foreground ,orange))))
    `(org-level-5 ((t (:foreground ,pink))))
    ;; Helm
-   `(helm-selection ((t (:foreground ,orange :background ,grey2))))
+   `(helm-selection ((t (:foreground ,orange :background ,grey2 :weight bold))))
    `(helm-ff-directory ((t (:foreground ,green :weight bold))))
    `(helm-ff-dotted-directory ((t (:background "nil" :foreground ,fg))))
    `(helm-ff-dotted-symlink-directory ((t (:background "nil" :foreground ,red))))
    `(helm-ff-executable ((t (:background "nil" :foreground ,blue))))
    `(helm-ff-invalid-symlink ((t (:foreground ,red2 :background "nil"))))
    `(helm-ff-symlink ((t (:foreground ,pink))))
-   `(helm-source-header ((t (:foreground ,blue :background ,grey2))))
+   `(helm-source-header ((t (:foreground ,grey :background ,grey2 :weight bold))))
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,green))))
    `(rainbow-delimiters-depth-2-face ((t (:foreground ,red))))
