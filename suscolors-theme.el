@@ -45,6 +45,7 @@
    `(font-lock-warning-face ((t (:foreground ,red2))))
    `(compilation-warning ((t (:foreground ,red2))))
    `(highlight ((t (:background ,grey2 :foreground ,blue))))
+   `(region ((t (:background ,grey2))))
    ;; Highlight quoted mode-line
    `(highlight-quoted-symbol ((t (:foreground ,pink))))
    ;; hl-line and hlinum-activate
