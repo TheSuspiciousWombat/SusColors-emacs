@@ -39,14 +39,15 @@
    `(font-lock-type-face ((t (:foreground ,pink))))
    `(font-lock-constant-face ((t (:foreground ,pink))))
    `(button ((t (:foreground ,blue2 :weight bold :underline t))))
+   `(link ((t (:foreground ,blue2 :weight bold))))
    `(mode-line ((t (:background ,grey3 :foreground ,fg))))
    `(menu ((t (:foreground ,fg :background ,grey2))))
    `(mode-line ((t (:background ,grey2 :foreground ,fg))))
    `(font-lock-warning-face ((t (:foreground ,red2))))
    `(compilation-warning ((t (:foreground ,red2))))
    `(highlight ((t (:background ,grey2 :foreground ,blue))))
-   `(region ((t (:background ,grey2))))
    `(linum ((t (:foreground ,grey3 :weight bold))))
+   `(widget-field ((t (:foreground ,fg :background ,grey3))))
    ;; Highlight quoted mode-line
    `(highlight-quoted-symbol ((t (:foreground ,pink))))
    ;; hl-line and hlinum-activate
@@ -97,11 +98,12 @@
    `(js2-function-param ((t (:foreground ,orange))))
    ;; erc
    `(erc-timestamp-face ((t (:foreground ,red))))
-   `(erc-prompt-face ((t (:foreground ,red, :weight bold))))
+   `(erc-prompt-face ((t (:foreground ,green :weight bold))))
    `(erc-nick-default-face ((t (:foreground ,blue))))
    `(erc-notice-face ((t (:foreground ,pink))))
    `(erc-button ((t (:foreground ,blue2))))
    `(erc-current-nick-face ((t (:foreground ,red))))
+   `()
    ))
 
 ;;;###autoload
