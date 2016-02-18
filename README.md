@@ -9,5 +9,5 @@ Also pls note small changes may occur.
 Install it via [Melpa](http://melpa.org) or [Quelpa](https://github.com/quelpa/quelpa).
 
 ## Screenshots
-![SusColors in action using C](http://i.imgur.com/EBC2ZVM.png)
+![SusColors in action using C](http://i.imgur.com/4bah2d0.png)
 
