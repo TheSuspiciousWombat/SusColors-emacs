@@ -40,7 +40,6 @@
    `(font-lock-constant-face ((t (:foreground ,pink))))
    `(button ((t (:foreground ,blue2 :weight bold :underline t))))
    `(link ((t (:foreground ,blue2 :weight bold))))
-   `(mode-line ((t (:background ,grey3 :foreground ,fg))))
    `(menu ((t (:foreground ,fg :background ,grey2))))
    `(mode-line ((t (:background ,grey2 :foreground ,fg))))
    `(font-lock-warning-face ((t (:foreground ,red2))))
