@@ -102,7 +102,11 @@
    `(erc-notice-face ((t (:foreground ,pink))))
    `(erc-button ((t (:foreground ,blue2))))
    `(erc-current-nick-face ((t (:foreground ,red))))
-   `()
+   ;; elfeed
+   `(elfeed-search-feed-face ((t (:foreground ,orange))))
+   `(elfeed-search-tag-face ((t (:foreground ,green))))
+   `(elfeed-search-date-face ((t (:foreground ,red))))
+   `(elfeed-search-title-face ((t (:foreground ,fg))))
    ))
 
 ;;;###autoload
