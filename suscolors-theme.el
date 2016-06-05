@@ -51,6 +51,9 @@
      `(highlight ((t (:background ,grey2 :foreground ,blue))))
      `(linum ((t (:foreground ,grey3 :weight bold))))
      `(widget-field ((t (:foreground ,fg :background ,grey3))))
+     `(message-header-name-face ((t (:foreground ,green))))
+     `(message-header-subject ((t (:foreground ,red :weight bold))))
+     `(message-header-other ((t (:foreground ,pink))))
      ;; Highlight quoted mode-line
      `(highlight-quoted-symbol ((t (:foreground ,pink))))
      ;; hl-line and hlinum-activate
@@ -87,10 +90,10 @@
      `(rainbow-delimiters-depth-9-face ((t (:foreground ,blue))))
      `(rainbow-delimiters-depth-10-face ((t (:foreground ,orange))))
      ;; Company-mode
-     `(company-tooltip ((t (:foreground ,fg :background ,grey2))))
-     `(company-tooltip-selection ((t (:foreground ,fg :background ,grey3))))
-     `(company-scrollbar-fg ((t (:background ,grey2))))
-     `(company-scrollbar-bg ((t (:background ,grey3))))
+     `(company-tooltip ((t (:foreground ,fg :background ,bg))))
+     `(company-tooltip-selection ((t (:foreground ,fg :background ,grey2))))
+     `(company-scrollbar-fg ((t (:background ,grey3))))
+     `(company-scrollbar-bg ((t (:background ,grey2))))
      `(company-tooltip-common ((t (:foreground ,orange))))
      `(company-preview ((t (:background ,grey3))))
      `(company-preview-common ((t (:background ,grey3 :foreground ,red))))
@@ -111,7 +114,7 @@
      `(elfeed-search-tag-face ((t (:foreground ,green))))
      `(elfeed-search-date-face ((t (:foreground ,red))))
      `(elfeed-search-title-face ((t (:foreground ,fg))))
-     ))
+          ))
 
   ;;;###autoload
   (when load-file-name
@@ -120,4 +123,4 @@
 
 
   (provide-theme 'suscolors)
-  ;;; suscolors-theme.el ends here
+;;; suscolors-theme.el ends here
