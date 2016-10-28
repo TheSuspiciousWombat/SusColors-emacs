@@ -1,9 +1,11 @@
 ;;; suscolors-theme.el --- Colorful theme, inspired by Gruvbox.
 
-;;; Copyright (c) 2016 Tomas Vojtisek
-;;; URL: https://github.com/TheSuspiciousWombat/SusColors-emacs
+;; Copyright (c) 2016 Tomas Vojtisek
+;; URL: https://github.com/TheSuspiciousWombat/SusColors-emacs
 
 ;;; Commentary:
+
+;; Colorful theme, inspired by Gruvbox.
 
 ;;; Code:
 (deftheme suscolors
