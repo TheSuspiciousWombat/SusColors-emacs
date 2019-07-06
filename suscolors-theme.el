@@ -12,8 +12,7 @@
 (deftheme suscolors
   "Colorful theme, inspired by Gruvbox.")
 
-(let (
-      (bg "#262626")
+(let ((bg "#262626")
       (fg "#d7af5f")
       (orange "#d78700")
       (orange2 "#d75f00")
@@ -32,13 +31,11 @@
       (cyan "#008787")
       (cyan2 "#00afaf")
       (red "#D8553B")
-      (red2 "#EF3935")
-      )
+      (red2 "#EF3935"))
   (custom-theme-set-faces
    'suscolors
    `(default ((t (:foreground ,fg :background ,bg))))
-   '(fringe ((t (:inherit default))))
-   '(vertical-boarder ((t (:inherit default))))
+   `(fringe ((t (:inherit default))))
    `(font-lock-string-face ((t (:foreground ,green))))
    `(font-lock-builtin-face ((t (:foreground ,blue))))
    `(region ((t (:background ,grey3))))
