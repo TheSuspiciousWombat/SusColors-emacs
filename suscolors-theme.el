@@ -37,6 +37,8 @@
   (custom-theme-set-faces
    'suscolors
    `(default ((t (:foreground ,fg :background ,bg))))
+   '(fringe ((t (:inherit default))))
+   '(vertical-boarder ((t (:inherit default))))
    `(font-lock-string-face ((t (:foreground ,green))))
    `(font-lock-builtin-face ((t (:foreground ,blue))))
    `(region ((t (:background ,grey3))))
@@ -68,11 +70,11 @@
    ;;`(magit-diff-removed-highlight ((t (:background "yellow"))))
    ;;`(magit-diff-context-highlight ((t (:background ,bg))))
    ;; Org
-   `(org-level-1 ((t (:foreground ,green))))
-   `(org-level-2 ((t (:foreground ,red))))
-   `(org-level-3 ((t (:foreground ,blue))))
-   `(org-level-4 ((t (:foreground ,orange))))
-   `(org-level-5 ((t (:foreground ,pink))))
+   `(org-level-1 ((t (:height 2.0 :foreground ,green))))
+   `(org-level-2 ((t (:height 1.8 :foreground ,red))))
+   `(org-level-3 ((t (:height 1.6 :foreground ,blue))))
+   `(org-level-4 ((t (:height 1.6 :foreground ,orange))))
+   `(org-level-5 ((t (:height 1.2 :foreground ,pink))))
    ;; Helm
    `(helm-selection ((t (:foreground ,orange :background ,grey2 :weight bold))))
    `(helm-ff-directory ((t (:foreground ,green :weight bold))))
